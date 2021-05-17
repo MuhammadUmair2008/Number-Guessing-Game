@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.tynker.com/projects/images/5bf3a8b98409f22b6752f0f8/background-scene---number-guessing-game.png">
+    <title>NUMBER GUESSING GAME</title>
+    <link rel="stylesheet" href="easy.css">
+</head>
+<body>
+    <h1>NUMBER GUESSING GAME</h1>
+    <p>Try and guess a random number between 1 and 10.</p>
+    <p>You have 5 attempts to guess the right number</p>
+    <div class="container">
+        <div class="row">
+        <form>
+            <label class="label1" for="fname">Guess a number</label>
+        <br>
+            <input id = "input1" type="number" id="fname" name="fname">
+            <br>
+            <input id ="button" type="submit" value="ENTER">
+            </div>
+        </form>
+        <p class="guess">Previous Guesses : <span class="guesses"></span></p>
+        <p id = "guessRem" class="guess">Guesses Remaining: <span id = "remainingGuess">5</span> </p>
+        <h2 class="newhead2" id = "newhead"></h2>
+        <h2 id="newGame"></h2>
+    </div>
+    <br>
+    <center><input type="BUTTON" value="GO BACK" onclick="parent.location='../level.html'"></center>
+<script type ="text/javascript" src="/easy.js"></script>    
+</body>
+</html>

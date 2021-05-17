@@ -1,0 +1,17 @@
+input{
+    border: 4px white solid;
+    display: inline block;
+    padding: 12px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+body {
+    background-color:mediumspringgreen;
+}
+h1 {
+    font-family: 'Zen Dots', cursive;
+    font-size: 70px;
+    color: white;
+}
